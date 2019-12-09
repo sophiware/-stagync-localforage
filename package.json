@@ -1,11 +1,8 @@
 {
   "name": "@stagync/localforage",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "Plugin for stagync to save data in memory",
-  "main": "src/Memory.js",
-  "scripts": {
-    "test": "mocha"
-  },
+  "main": "src/Localforage.js",
   "author": "Philippe Assis <assis@sophiware.com>",
   "license": "ISC",
   "devDependencies": {
@@ -22,12 +19,15 @@
   "directories": {
     "test": "test"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sophiware/-stagync-memory.git"
+    "url": "git+https://github.com/sophiware/stagync-localforage.git"
   },
   "bugs": {
-    "url": "https://github.com/sophiware/-stagync-memory/issues"
+    "url": "https://github.com/sophiware/stagync-localforage/issues"
   },
-  "homepage": "https://github.com/sophiware/-stagync-memory#readme"
+  "homepage": "https://github.com/sophiware/stagync-localforage#readme"
 }
