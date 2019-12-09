@@ -14,7 +14,7 @@
     "eslint-plugin-standard": "^3.0.1"
   },
   "dependencies": {
-    "mocha": "^6.2.2"
+    "localforage": "^1.7.3"
   },
   "directories": {
     "test": "test"
