@@ -1,6 +1,6 @@
 {
-  "name": "@stagync/memory",
-  "version": "0.0.1",
+  "name": "@stagync/localforage",
+  "version": "0.0.2",
   "description": "Plugin for stagync to save data in memory",
   "main": "src/Memory.js",
   "scripts": {
