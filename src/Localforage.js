@@ -1,6 +1,6 @@
 const localforage = require('localforage')
 
-module.exports.default = class Localstorage {
+module.exports = class Localstorage {
   constructor (parent) {
     const driver = ('localForageDriver' in parent.config) ? parent.config.localForageDriver.toUpperCase() : 'LOCALSTORAGE'
 
